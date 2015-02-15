@@ -155,7 +155,7 @@
  }
  .blog-post-title {
    margin-bottom: 5px;
-   font-size: 40px;
+   font-size: 30px;
  }
  .blog-post-meta {
    margin-bottom: 20px;
@@ -178,4 +178,3 @@
  .blog-footer p:last-child {
    margin-bottom: 0;
  }
- 

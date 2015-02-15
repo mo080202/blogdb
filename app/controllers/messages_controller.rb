@@ -3,7 +3,7 @@ class MessagesController <ApplicationController
     @messages = Message.all.order('created_at DESC')
   end
   def create
-    Message.create(username: params['username'], message: params['message'])
+    Message.create(username: params['username'], title: params['title'], message: params['message'])
     redirect_to "/"
   end
 end
